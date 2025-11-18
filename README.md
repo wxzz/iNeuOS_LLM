@@ -4,21 +4,7 @@
 
 # 微调模型训练过程及代码
 ## 1.代码工程目录
-LLM/
-├───📂 deepseek-1.5b-lora-final/    //微调训练后的模型
-├───📂 deepseek-1.5b-lora-merged/  //微调后模型与基础模型合并的模型
-├───📂 deepseek-ai/
-
-│   ├───📂 DeepSeek-R1-Distill-Qwen-1.5B/   //基础模型
-├───📂 docx_input/  //生成数据集的基础Word文件
-├───datasets.json/  //微调训练模型的输入数据集文件
-├───merged_model.py/  //用于合并基础模型与微调后的模型
-├───test_base_model.py/  //测试基础模型
-├───test_merged_model.py/  //测试合并后的模型
-├───test_train_model.py/  //测试微调后的模型
-├───train_model.py/  //微调训练模型
-├───training_dataset.json/  //转换Word生成的数据集文件
-├───word_to_dataset.py/  //用于转换Word生成的数据集 
+<img width="1005" height="688" alt="image" src="https://github.com/user-attachments/assets/df5f859e-ee57-49a4-ac53-e4a884bb2691" />
 
 ## 2.下载基础模型DeepSeek-R1-Distill-Qwen-1.5B
 使用huggingface-cli下载基础模型,工具下载地址：https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
