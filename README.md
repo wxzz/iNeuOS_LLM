@@ -4,8 +4,6 @@
 
 # 二.微调模型训练过程及代码
 ## 1.代码工程目录
-<img width="1005" height="688" alt="image" src="https://github.com/user-attachments/assets/df5f859e-ee57-49a4-ac53-e4a884bb2691" />
-
 ├───📂 deepseek-ai/<br>
 │   ├───📂 DeepSeek-R1-Distill-Qwen-1.5B/   //基础模型<br>
 ├───📂 docx_input/  //生成数据集的基础Word文件<br>
