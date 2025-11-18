@@ -10,16 +10,16 @@
 使用huggingface-cli下载基础模型,工具下载地址：https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B
 
 ## 3.准备数据集
-（1）	把准备好的Word文件，放入docx_input文件夹。
+（1）	把准备好的Word文件，放入docx_input文件夹。<br>
 （2）	运行word_to_dataset.py代码，会生成training_dataset.json数据集文件，把training_dataset.json文件名称改为datasets.json。数据集有很大的调优空间。
 
 ## 4.训练模型
-（1）	运行train_model.py，训练模型，以我的笔记本配置，训练完成datasets.json数据集需要将近4个小时。
-（2）	训练完成的模型保存在deepseek-1.5b-lora-final目录下。
+（1）	运行train_model.py，训练模型，以我的笔记本配置，训练完成datasets.json数据集需要将近4个小时。<br>
+（2）	训练完成的模型保存在deepseek-1.5b-lora-final目录下。<br>
 （3）	使用test_train_model.py代码测试基础模型与训练后的模型。
 
 ## 5.合并模型
-（1）	运行merged_model.py代码，把基础模型与训练后的模型合并成一个整体的模型，保存在deepseek-1.5b-lora-merged目录下。
+（1）	运行merged_model.py代码，把基础模型与训练后的模型合并成一个整体的模型，保存在deepseek-1.5b-lora-merged目录下。<br>
 （2）	运行test_merged_model.py代码，测试合并后的模型。应用效果参见本文章节：测试微调训练后的大模型。
 
 # 三.iNeuOS工业互联网公众号：
