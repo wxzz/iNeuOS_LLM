@@ -33,8 +33,11 @@
 （1）	运行merged_model.py代码，把基础模型与训练后的模型合并成一个整体的模型，保存在deepseek-1.5b-lora-merged目录下。<br>
 （2）	运行test_merged_model.py代码，测试合并后的模型。应用效果参见本文章节：测试微调训练后的大模型。
 
-# 三.iNeuOS工业互联网公众号：
+# 三.电脑配置
+<img width="866" height="368" alt="image" src="https://github.com/user-attachments/assets/8fc02fdc-2076-479e-93e0-a82caff65a29" />
+
+# 四.iNeuOS工业互联网公众号：
 
 ![iNeuOS工业互联网公众号](https://img2020.cnblogs.com/blog/279374/202011/279374-20201109210223158-1810580141.jpg)
 
-# 四.官方网站:http://www.ineuos.net<br>
+# 五.官方网站:http://www.ineuos.net<br>
